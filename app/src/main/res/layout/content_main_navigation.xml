@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myapp.rishabhrawat.womensafety.MainNavigationActivity"
+    tools:showIn="@layout/app_bar_main_navigation">
+
+
+    <TextView
+        android:id="@+id/textid"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:text="ID :" />
+
+    <Button
+        android:id="@+id/safebtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:onClick="SafeButtonMethod"
+        android:layout_below="@+id/textid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="I am Safe" />
+
+    <Button
+        android:id="@+id/helpbtn"
+        android:onClick="HelpButtonMethod"
+        android:background="@drawable/buttonstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/safebtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

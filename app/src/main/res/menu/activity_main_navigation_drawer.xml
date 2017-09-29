@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/userid"
+            android:icon="@drawable/userid"
+            android:title="Your ID.." />
+        <item
+            android:id="@+id/updateinfo"
+            android:icon="@drawable/update"
+            android:title="Update Your Info.." />
+        <item
+            android:id="@+id/enterdetails"
+            android:icon="@drawable/enterdetails"
+            android:title="Enter New User Details.." />
+        <item
+            android:id="@+id/listuser"
+            android:icon="@drawable/alluser"
+            android:title="List of All User.." />
+
+        <item
+            android:id="@+id/helpline"
+            android:icon="@drawable/alluser"
+            android:title="Women HelpLine No." />
+    </group>
+
+</menu>

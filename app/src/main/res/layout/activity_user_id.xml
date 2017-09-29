@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myapp.rishabhrawat.womensafety.UserIDActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Your Information.."
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/idtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="51dp"
+        android:text="YOUR ID "
+        android:textColor="@android:color/holo_green_light"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/idtext"
+        android:layout_marginTop="42dp"
+        android:text="NAME"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/phonetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/idtext"
+        android:layout_alignStart="@+id/idtext"
+        android:layout_below="@+id/nametext"
+        android:layout_marginTop="49dp"
+        android:text="MOBILE NO"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/gmailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="EMAIL ADDRESS "
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_below="@+id/phonetext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/addresstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="HOME ADDRESS"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_below="@+id/gmailtext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
